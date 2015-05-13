@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+		<meta charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="jQueryUI/jquery-ui.css"/>
+		<link rel="stylesheet" href="css/flexslider.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/mStyle.css" media="all and (min-width: 320px) and (max-width: 1024px)"/>
+	</head>
+	<body>
+		<main>
+		<div hidden id="hover"></div>
+			<div hidden id="popup">
+				<div id="regText">Register your interest<button id="cancel">cancel</button></div>
+				<left>
+					<form id="form">
+						What's your name?<br>
+						<input type="text"><br>
+						What product would you like?<br>
+						<input list="products" value="Please choose a product..."><br>
+						<datalist id="products">
+							<option value="First"></option>
+							<option value="Second"></option>
+							<option value="Third"></option>
+						</datalist>
+						Where are you from?<br>
+						<input list="search" type="search"><br>
+						<datalist id="search">
+							<option value="Austria"></option>
+							<option value="Australia"></option>
+							<option value="Estonia"></option>
+						</datalist>
+						Could you upload a picture of your animal?<br>
+						<input type="file"><br>
+						Could you upload a picture of your animal?<br>
+						<input type="radio">A dog person<br>
+						<input type="radio">A cat person<br>
+						When would you like to receive the product?<br>
+						<input type="date"> to <input type="date"><br>
+						Any additional comments?<br>
+						<textarea></textarea><br>
+						<input type="checkbox"> I have read your
+						<a href="index.html" id="terms">Terms</a> about all of this<br>
+						<input id="sendBtn" class="marginBtn" type="button" value="SEND YOUR REQUEST">
+					</form>
+				</left>
+				<right>
+					<table>
+						<th>Shipping info</th>
+						<tr>
+							<td>Europe</td>
+							<td>1-3 days</td>
+						</tr>
+						<tr>
+							<td>North America</td>
+							<td>2 weeks</td>
+						</tr>
+						<tr>
+							<td>South America</td>
+							<td>1 month</td>
+						</tr>
+						<tr>
+							<td>Australia</td>
+							<td>1-3 months</td>
+						</tr>
+						<tr>
+							<td>Asia</td>
+							<td>1-3 months</td>
+						</tr>
+						<tr>
+							<td>Australia</td>
+							<td>1-3 months</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+
+					</table>
+				</right>
+			</div>
+			<menu>
+				<a class="link" id="logo" href="index.html"></a>
+				<a class="link" href="index.html">The Product</a>
+				<a class="link" href="index.html">Order Yours</a>
+				<a class="link" href="index.html">About Us</a>
+				<a class="link" href="index.html">Support</a>
+				<a class="link items" id="dropDown" href=""><img src="images/Rectangle-2.png"></a>
+					<a class="link items" id="item1" href="index.html">Read our FAQ</a>
+					<a class="link items" id="item2" href="index.html">Post a Support Ticket</a>
+					<a class="link items" id="item3" href="index.html">Orders & Shipping</a>
+				<a class="link" href="index.html">Get in touch with us</a>
+				<img id="fb" src="images/Vector-Smart-Object1.png">
+			</menu>
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<img src="images/Layer-1.png" />
+					</li>
+					<li>
+						<div id="over">
+							<div id="text1">NO MORE <pink>CHEAP</pink> IMITATIONS</div>
+							<div id="2">Here at Woodland we take great care for our products. Every detail is meticulouslyobsessed over in our research and development labs.</div>
+							<div id="3">
+								<button class="marginBtn containers" id="regBtn">REGISTER YOUR INTEREST</button>
+								<a id="readMore" href="index.html"><button class="marginBtn containers" id="readBtn">READ MORE</button></a>
+							</div>
+						</div>
+						<img src="images/Layer-1.png" />
+					</li>
+					<li>
+						<img src="images/Layer-1.png" />
+					</li>
+				</ul>
+			</div>
+			<div id="grid">
+				<a class="containers" id="container-1" href="index.html">
+					<img id="movie" src="images/Vector-Smart-Object2.png">
+					<div id="container-1-1">WATCH OUR KEYNOTE<br></div>
+					<div id="container-1-2">See all the details from our press event</div>
+				</a>
+				<a class="containers" id="container-2" href="index.html">
+					<img id="cube" src="images/Vector-Smart-Object3.png">
+					<div id="container-2-1">SEE OUR<br>
+					PRODUCT RANGE<br></div>
+					<div id="container-2-2">Experience the world of Woodland</div>
+				</a>
+				<a class="containers" id="container-3" href="index.html">
+					<img id="thumbs" src="images/Vector-Smart-Object4.png">
+					<div id="container-3-1">WOODLAND ON<br>
+					SOCIAL MEDIA<br></div>
+					<div id="container-3-2">Get the latest on new products, campaigns, etc</div>
+				</a>
+			</div>
+		</main>
+		<div id="gMap"></div>
+		<footer>
+			<div id="container-4">
+				46 Deshon St<br>
+				Woolloongabba QLD 4102<br>
+				Australia<br>
+				<br>
+				P: +123 748 38 932<br>
+				<br>
+				E:<a id="mLink" href="mailto:hello@woodlandproducts.com">hello@woodlandproducts.com</a>
+			</div>
+			<div id="container-5">
+				All rights reserved 2015
+			</div>
+		</footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="jQueryUI/jquery-ui.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
+		<script src="js/script.js"></script>
+		<script>google.maps.event.addDomListener(window, 'load', initialize);</script>
+	</body>
+</html>
