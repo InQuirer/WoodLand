@@ -1,3 +1,345 @@
 body {
 	background: orange;
 }
+body {
+	font-family: Montserrat;
+	padding: 40px;
+}
+
+menu {
+}
+
+#logo {
+}
+
+.link {
+}
+
+a:hover {
+	background: #4b424f;
+	transition-duration: 0.3s;
+}
+
+#dropDown {
+}
+
+#item1,
+#item2,
+#item3 {
+}
+
+#items {
+}
+
+#item3 {
+}
+
+#text1 {
+}
+
+pink {
+	color: #aa15e4;
+}
+
+#2 {
+}
+
+#3 {
+}
+
+#regBtn {
+}
+
+#readBtn {
+}
+
+#container-1 {
+}
+
+#container-2 {
+}
+
+#container-3 {
+}
+
+.containers {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.containers:hover {
+	opacity: 0.85;
+	cursor: pointer;
+}
+
+#movie {
+}
+
+#container-1-1 {
+}
+
+#container-1-2 {
+}
+
+#cube {
+}
+
+#container-2-1 {
+}
+
+#container-2-2 {
+}
+
+#thumbs {
+}
+
+#container-3-1 {
+}
+
+#container-3-2 {
+}
+
+footer {
+	background: linear-gradient(0deg, #56394d 0%, #131030 100%);
+	text-align: center;
+}
+
+#container-5 {
+	color: #785674;
+}
+
+#container-4 {
+}
+
+#grid {
+	display: flex;
+}
+
+#fb {
+	float: right;
+}
+
+#mLink {
+	color: white;
+	text-decoration: none;
+}
+
+#over {
+	position: fixed;
+	width: 570px;
+	margin-left: 140px;
+}
+
+.flex-control-paging li a {
+	margin-top: -40px;
+	border-radius: 100% !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	width: 100px !important;
+	height: 6px !important;
+}
+
+.marginBtn {
+	margin: 8px;
+	color: #ffffff;
+	font: 700 14px / 20px Montserrat;
+	transition-duration: 0.3s;
+}
+
+.marginBtn:hover {
+	border-radius: 25px !important;
+	transition-duration: 0.5s;
+}
+
+a:before {
+	content: none !important;
+}
+
+.flex-next {
+	color: transparent !important;
+	text-decoration: none !important;
+	border: none !important;
+	background-image: url(images/Nav-Left-copy.png);
+	background-repeat: no-repeat;
+}
+
+.flex-next:hover {
+	color: transparent !important;
+	background-image: url(images/Nav-Left-copy.png);
+	background-color: transparent;
+}
+
+.flex-prev {
+	color: transparent !important;
+	text-decoration: none !important;
+	border: none !important;
+	background-image: url(images/Nav-Left.png);
+	background-repeat: no-repeat;
+}
+
+.flex-prev:hover {
+	background-image: url(images/Nav-Left.png);
+	background-color: transparent;
+}
+
+#readMore {
+	border: 0px !important;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#readMore:hover {
+	background: transparent !important;
+}
+
+.flexslider {
+	top: -80px;
+}
+
+#hover {
+	background-color: rgba(60, 48, 64, 0.6);
+	cursor: pointer;
+	position: absolute;
+	top: 52px;
+	width: 90%;
+	height: 100%;
+	z-index: 2;
+}
+
+#popup {
+	position: absolute;
+	width: 50%;
+	background-color: #ffffff;
+	color: #000000;
+	margin-left: 23%;
+	margin-top: 10%;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 40px;
+	border-radius: 6px;
+	z-index: 3;
+}
+
+#regText {
+	font-size: 30px;
+}
+
+#cancel {
+	float: right;
+	margin-top: 0.5em;
+	font-size: 16px;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	color: #aa15e4;
+	font-weight: 600;
+}
+
+#cancel:hover {
+	cursor: pointer;
+}
+
+right {
+	float: right;
+}
+
+left {
+	float: left;
+}
+
+#sendBtn {
+	background: linear-gradient(0deg, #980fcd 0%, #ba27f3 100%);
+	height: 60px;
+	width: 197px;
+	border-radius: 3px;
+}
+
+#sendBtn:hover {
+	cursor: pointer;
+}
+
+#gMap {
+	height: 260px;
+}
+
+#divider {
+	height: 1px;
+	width: 110%;
+	margin-left: -5%;
+	background-color: #e1e1e1;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+input,
+td,
+th {
+}
+
+table {
+}
+
+input[type="text"],
+input[type="file"],
+input[list],
+textarea {
+	width: 300px;
+}
+
+.question {
+	margin-bottom: 20px;
+}
+
+#ui-datepicker-div {
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #4b424f;
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+}
+
+.ui-datepicker-prev {
+	float: left;
+}
+
+.ui-datepicker-next {
+	float: right;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+	padding: 5px;
+}
+
+.ui-datepicker-title {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.ui-state-default {
+	text-decoration: none;
+	font-weight: bold;
+	color: #4b424f;
+}
+
+.ui-state-default:hover,
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover {
+	color: #aa15e4;
+	background-color: rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+table.ui-datepicker-calendar,
+table.ui-datepicker-calendar tr td {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#startDate, #endDate {
+	width: 125px;
+}
