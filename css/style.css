@@ -40,11 +40,13 @@ menu {
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 30px;
+	-webkit-transition-duration: 0.1s;
 	transition-duration: 0.1s;
 }
 
 a:hover {
 	background: #4b424f;
+	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 }
 
@@ -128,6 +130,7 @@ pink {
 }
 
 #container-2 {
+	background: -webkit-linear-gradient(90deg, #5f6451 0%, #768159 100%);
 	background: linear-gradient(0deg, #5f6451 0%, #768159 100%);
 	padding: 40px;
 	margin-right: 40px;
@@ -137,6 +140,7 @@ pink {
 
 #container-3 {
 	padding: 40px;
+	background: -webkit-linear-gradient(90deg, #94711f 0%, #b07821 100%);
 	background: linear-gradient(0deg, #94711f 0%, #b07821 100%);
 	width: 310px;
 	text-align: center;
@@ -192,6 +196,7 @@ pink {
 }
 
 footer {
+	background: -webkit-linear-gradient(90deg, #56394d 0%, #131030 100%);
 	background: linear-gradient(0deg, #56394d 0%, #131030 100%);
 	height: 270px;
 	text-align: center;
@@ -209,6 +214,9 @@ footer {
 }
 
 #grid {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: -110px;
 	margin-bottom: 30px;
@@ -244,11 +252,13 @@ footer {
 	margin: 8px;
 	color: #ffffff;
 	font: 700 14px / 20px Montserrat;
+	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 }
 
 .marginBtn:hover {
 	border-radius: 25px !important;
+	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 }
 
@@ -349,6 +359,7 @@ left {
 }
 
 #sendBtn {
+	background: -webkit-linear-gradient(90deg, #980fcd 0%, #ba27f3 100%);
 	background: linear-gradient(0deg, #980fcd 0%, #ba27f3 100%);
 	height: 60px;
 	width: 197px;
