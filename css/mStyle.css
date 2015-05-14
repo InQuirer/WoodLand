@@ -1,18 +1,29 @@
 body {
-	background: orange;
+	background: wheat;
 }
 body {
 	font-family: Montserrat;
-	padding: 40px;
+	padding: 10px;
+	margin: 0px;
+	min-width: 630px;
 }
 
 menu {
+	top: 20px;
+	padding-top: 10px;
+	padding-bottom: 13px;
 }
 
 #logo {
+	padding: 14px;
+	padding-left: 150px;
 }
 
 .link {
+	padding: 5px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	font-size: 70%;
 }
 
 a:hover {
@@ -29,12 +40,14 @@ a:hover {
 }
 
 #items {
+	top: 63px;
 }
 
 #item3 {
 }
 
 #text1 {
+	font-size: 50px;
 }
 
 pink {
@@ -48,18 +61,17 @@ pink {
 }
 
 #regBtn {
+	padding: 20px;
 }
 
 #readBtn {
+	padding: 20px;
 }
 
-#container-1 {
-}
-
-#container-2 {
-}
-
-#container-3 {
+#container-1, #container-2, #container-3 {
+	width: 33%;
+	margin-right: 0px;
+	padding: 20px;
 }
 
 .containers {
@@ -72,31 +84,13 @@ pink {
 	cursor: pointer;
 }
 
-#movie {
+#movie, #cube, #thumbs {
+	width: 30%;
+	height: 30%;
 }
 
-#container-1-1 {
-}
-
-#container-1-2 {
-}
-
-#cube {
-}
-
-#container-2-1 {
-}
-
-#container-2-2 {
-}
-
-#thumbs {
-}
-
-#container-3-1 {
-}
-
-#container-3-2 {
+#container-1-1, #container-2-1, #container-3-1 {
+	font-size: 20px;
 }
 
 footer {
@@ -113,10 +107,12 @@ footer {
 
 #grid {
 	display: flex;
+	margin-bottom: 10px;
 }
 
 #fb {
 	float: right;
+	display: none;
 }
 
 #mLink {
@@ -126,7 +122,9 @@ footer {
 
 #over {
 	position: fixed;
-	width: 570px;
+	width:5.5%;
+	font-size: 13px;
+	margin-top: 80px;
 	margin-left: 140px;
 }
 
@@ -152,123 +150,62 @@ footer {
 }
 
 a:before {
-	content: none !important;
 }
 
 .flex-next {
-	color: transparent !important;
-	text-decoration: none !important;
-	border: none !important;
-	background-image: url(images/Nav-Left-copy.png);
-	background-repeat: no-repeat;
 }
 
 .flex-next:hover {
-	color: transparent !important;
-	background-image: url(images/Nav-Left-copy.png);
-	background-color: transparent;
 }
 
 .flex-prev {
-	color: transparent !important;
-	text-decoration: none !important;
-	border: none !important;
-	background-image: url(images/Nav-Left.png);
-	background-repeat: no-repeat;
 }
 
 .flex-prev:hover {
-	background-image: url(images/Nav-Left.png);
-	background-color: transparent;
 }
 
 #readMore {
-	border: 0px !important;
-	color: #ffffff;
-	text-decoration: none;
 }
 
 #readMore:hover {
-	background: transparent !important;
 }
 
 .flexslider {
-	top: -80px;
+	top: -40px;
+	margin-bottom: 80px;
 }
 
 #hover {
-	background-color: rgba(60, 48, 64, 0.6);
-	cursor: pointer;
-	position: absolute;
-	top: 52px;
-	width: 90%;
-	height: 100%;
-	z-index: 2;
 }
 
 #popup {
-	position: absolute;
-	width: 50%;
-	background-color: #ffffff;
-	color: #000000;
-	margin-left: 23%;
-	margin-top: 10%;
-	border-style: solid;
-	border-color: #ffffff;
-	border-width: 40px;
-	border-radius: 6px;
-	z-index: 3;
 }
 
 #regText {
-	font-size: 30px;
 }
 
 #cancel {
-	float: right;
-	margin-top: 0.5em;
-	font-size: 16px;
-	background: transparent;
-	box-shadow: none;
-	border: none;
-	color: #aa15e4;
-	font-weight: 600;
 }
 
 #cancel:hover {
-	cursor: pointer;
 }
 
 right {
-	float: right;
 }
 
 left {
-	float: left;
 }
 
 #sendBtn {
-	background: linear-gradient(0deg, #980fcd 0%, #ba27f3 100%);
-	height: 60px;
-	width: 197px;
-	border-radius: 3px;
 }
 
 #sendBtn:hover {
-	cursor: pointer;
 }
 
 #gMap {
-	height: 260px;
 }
 
 #divider {
-	height: 1px;
-	width: 110%;
-	margin-left: -5%;
-	background-color: #e1e1e1;
-	margin-bottom: 30px;
-	margin-top: 10px;
 }
 
 input,
@@ -287,59 +224,35 @@ textarea {
 }
 
 .question {
-	margin-bottom: 20px;
 }
 
 #ui-datepicker-div {
-	text-align: center;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #4b424f;
-	background-color: white;
-	color: black;
-	border-radius: 6px;
 }
 
 .ui-datepicker-prev {
-	float: left;
 }
 
 .ui-datepicker-next {
-	float: right;
 }
 
 .ui-datepicker-prev,
 .ui-datepicker-next {
-	padding: 5px;
 }
 
 .ui-datepicker-title {
-	color: rgba(0, 0, 0, 0.5);
 }
 
 .ui-state-default {
-	text-decoration: none;
-	font-weight: bold;
-	color: #4b424f;
 }
 
 .ui-state-default:hover,
 .ui-datepicker-prev:hover,
 .ui-datepicker-next:hover {
-	color: #aa15e4;
-	background-color: rgba(0, 0, 0, 0.2);
-	cursor: pointer;
-	padding: 5px;
-	border-radius: 6px;
 }
 
 table.ui-datepicker-calendar,
 table.ui-datepicker-calendar tr td {
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
 }
 
 #startDate, #endDate {
-	width: 125px;
 }
